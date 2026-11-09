@@ -1,1 +1,30 @@
-<resources><string name="app_name">陈浩然2024110203</string></resources>
+<resources>
+    <string name="app_name">陈浩然2024110203</string>
+    <string name="subject">学生信息管理</string>
+    <string name="list_title">学生列表</string>
+    <string name="count">共 %1$d 名学生</string>
+    <string name="add">＋ 添加学生</string>
+    <string name="add_title">新增学生</string>
+    <string name="form_note">填写学生信息，确认后返回列表。</string>
+    <string name="number">学号</string>
+    <string name="name">姓名</string>
+    <string name="gender">性别</string>
+    <string name="class_name">班级</string>
+    <string name="number_hint">请输入数字学号</string>
+    <string name="name_hint">请输入学生姓名</string>
+    <string name="class_hint">如 2024级2班</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="row_id">学号：%1$s</string>
+    <string name="row_details">%1$s · %2$s</string>
+    <string name="added">已添加：%1$s</string>
+    <string name="duplicate">该学号已存在。</string>
+    <string name="invalid_id">请输入 1 至 20 位数字学号。</string>
+    <string name="missing_name">请填写姓名。</string>
+    <string name="missing_class">请填写班级。</string>
+    <string name="sample_a">示例学生甲</string>
+    <string name="sample_b">示例学生乙</string>
+    <string name="sample_class">2024级2班</string>
+</resources>

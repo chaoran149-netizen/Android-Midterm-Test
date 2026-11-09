@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp">
+<TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/subject" />
+<TextView style="@style/Heading" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" />
+<TextView style="@style/Label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/list_title" />
+<TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/student_count" android:layout_marginBottom="12dp"/>
+<ListView android:id="@+id/students" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:divider="@android:color/transparent" android:dividerHeight="8dp"/>
+<TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/list_status" android:accessibilityLiveRegion="polite" android:visibility="gone"/>
+<Button android:id="@+id/add_student" style="@style/Action" android:layout_height="wrap_content" android:text="@string/add" android:layout_width="match_parent"/>
+</LinearLayout>
